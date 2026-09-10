@@ -1,6 +1,6 @@
 # clique, a cli chat application
 
-This repo contains a real-time chat application in Rust built with a client-server architecture using TCP sockets and async handling. The app supports multiple chat rooms with optional passwords, very basic user authentication, and real-time message broadcasting. It is built on a custom messaging protocol for message passing between clients and server.
+A real-time chat application in Rust built with a client-server architecture using TCP sockets and async handling. The app supports multiple chat rooms with optional passwords, very basic user authentication, and real-time message broadcasting. It is built on a custom messaging protocol for message passing between clients and server.
 
 The server handles multiple concurrent connections using Tokio's async runtime while maintaining chat rooms and broadcasting messages. Clients can create password-protected rooms, join existing rooms with usernames, send messages, and receive real-time broadcasts from other users in the same room.
 
